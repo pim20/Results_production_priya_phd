@@ -1,7 +1,5 @@
-#set terminal postscript eps enhanced color
-#set output "ar_density_probrho_inset.eps"
-set terminal pdfcairo enhanced color
-set output "ar_density_probrho_inset_pdf.pdf"
+set terminal postscript eps enhanced color
+set output "ar_density_probrho_inset.eps"
 set style line 1 lt 2 lw 8 lc rgb 'blue'   dt 4
 set style line 2 lt 2 lw 8 lc rgb 'dark-red'    dt 1
 set style line 3 lt 2 lw 5 lc rgb 'red'     dt 3
